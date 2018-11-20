@@ -76,7 +76,7 @@ class calculator:
 
         print('Ans:' + str(divmod(num_1, num_2 ))) #dimod prints both Quotient and remainder
       else:
-        print('Select Between 1-7')
+        print('Invalid input')
 
     except :
       print('Syntax Error')
