@@ -5,11 +5,11 @@ try:
     from textblob import TextBlob as tb
     import matplotlib.pyplot as plt
 
-    consumer_key = 'e0JVkNMi4RX7E9qY662KRcrQg'
-    consumer_secret = 'qiaFiwdlhpYQeZEaHEOF02nvWobIVW4NFca11mXEucdolMFJK4'
+    consumer_key = ''
+    consumer_secret = ''
 
-    access_token = '984039827443105793-Z6yLisl2W2vTbb9hHv5GU3Tx8CAOIhB'
-    access_token_secret = 'wZYjXnvAG7ZKjNzN5uKf1WxnAFHyosYupkZ5MEQxkHw4E'
+    access_token = ''
+    access_token_secret = ''
 
     auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
     auth.set_access_token(access_token, access_token_secret)
